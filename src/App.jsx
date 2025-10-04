@@ -1,8 +1,8 @@
-import Players from "./components/Players"
+import GameBoard from "./components/GameBoard";
+import Players from "./components/Players";
 
 function App() {
   
-
   return (
     <main>
       <header><img src="game-logo.png"/>
@@ -13,7 +13,7 @@ function App() {
         <Players initialPlayerName="Max" symbol="X"/>
         <Players initialPlayerName="John" symbol="O"/>
         </ol>
-      GAME BOARD
+      <GameBoard />
       </div>
       LOG
     </main>
